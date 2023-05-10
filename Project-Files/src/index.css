@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+.side-bar:hover .pen-parent {
+    background-color: rgba(144, 205, 244, 0.5);
+}
+
+.side-bar:hover .pen-icon {
+    background-color: transparent;
+}
+
+.side-bar:hover .mail-parent {
+    background-color: #e5e7eb;
+}
